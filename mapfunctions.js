@@ -12,7 +12,6 @@ var Map = class Map {
         this.map = this.createMap(divID);
         this.markerLayer = this.addMarkerLayerToMap(this.map);
         this.polylineLayer = this.addPolylineLayerToMap(this.map);
-
     }
 
 
@@ -156,8 +155,3 @@ var Map = class Map {
 
 
 }
-
-
-
-
-
